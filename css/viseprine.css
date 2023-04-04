@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/****************************************** NAVBAR SECTION STARTS***********************************************/
+nav{
+	background: radial-gradient(circle at 10% -40%,#00111c 0,#00112c 61%,#00112c 100%);
+	width: 100%;
+}
+.logo{
+	font-family: 'Cinzel Decorative', cursive;
+	font-size:3.5rem !important;
+}
+	@media screen and (max-width: 991px) {
+		.logo {
+			font-family: 'Cinzel Decorative', cursive;
+			font-size:2.5rem !important;
+		}
+	}
+
+#dropdown{
+	color:#ae67fa;
+	font-size: 19px;
+}
+
+#navbarNavDropdown{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3rem;
+}
+/* .nav-link{
+	color: black !important;
+} */
+
+/****************************************** NAVBAR SECTION ENDS***********************************************/
+
+/****************************************** CONTENT SECTION STARTS***********************************************/
+#content{
+	color:white;
+	background:radial-gradient(circle at 10% -40%,#00438a 0,#00112c 61%,#00112c 100%);
+	font-family: 'Roboto', sans-serif;
+}
+
+.header-text{
+	font-size: 67px;
+	margin-top: 9.5rem;
+	margin-left: 2.8rem;
+}
+	@media screen and (max-width: 767px) {
+		.header-text {
+			font-size:3.0rem ;
+			margin: 37px;
+		}
+	}
+	
+	.header-text2{
+		color: #81afdd;
+		font-size: 20px;
+		font-weight: 400;
+		margin-top: 1.8rem;
+		margin-left: 2.8rem;
+	}
+		@media screen and (max-width: 767px){
+			.header-text2{
+				font-size: 13px;
+				margin: 15px 37px;
+			}
+		}
+	
+   #buttonStart{
+		position:relative;
+		left:20px;
+		margin:20px;
+		padding:20px 100px 20px 100px;
+		border-radius:30px;
+		border:1px solid #ae67fa;
+		color:#ae67fa;
+	}
+		#buttonStart:hover{
+			background:#ae67fa;
+			transition:.6s;
+			color:white;
+		}
+
+	.content-pic{
+		width: 95%;
+		height: 95%;
+	}
+		@media screen and (max-width: 767px){
+			.content-pic{
+				width: 100%;
+				height: 100%;
+			}
+		}
+/****************************************** CONTENT SECTION ENDS***********************************************/
+
+/****************************************** ACHIEVEMENTS SECTION STARTS***********************************************/
+#achieve{
+	background:#00112c;
+	padding-top:5%;
+	padding-bottom:5%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.achieve-details{
+	text-align:center;
+	color:#ae67fa;
+	margin-bottom: 20px;
+}
+/****************************************** ACHIEVEMENTS SECTION ENDS ***********************************************/
+
+/****************************************** PORTFOLIO SECTION STARTS ***********************************************/
+#portfolio{
+	background:#00112c;
+	padding-bottom:5%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.inside-portfolio{
+	background-color:#00438a ;
+	border-radius:12px;
+}
+.portfolio-text{
+	color:#ae67fa;
+	text-align:center;
+	padding-top:5%;
+}
+
+.portfolio-img{
+	width:100%;
+	height:100%;
+	padding-top:15%;
+	padding-bottom:20%;
+	border-style:none; 
+}
+/****************************************** PORTFOLIO SECTION ENDS ***********************************************/
+
+/****************************************** ABOUT SECTION STARTS ***********************************************/
+#about{
+	background:#00112c;
+	padding-bottom:3%;
+	padding-top:3%;
+	font-family: 'Roboto', sans-serif;
+}
+.inside-about{
+	background-color:#00438a ;
+	border-radius:12px;
+	margin: 20px;
+}
+.inside-about2, .inside-about3{
+	padding-top:3%;
+}
+.inside-about4{
+	padding-bottom:3%;
+	padding-top:3%;
+}
+.about-text{
+	color:white;
+	font-weight:600;
+}
+.about-para{
+	color:#81afdd;
+	font-size:17px;
+}
+
+.company-logo{
+	border-radius:20px;
+	margin-left: 4.0rem;
+}
+	@media screen and (max-width: 991px){
+		.company-logo{
+			font-size: 13px;
+			margin: 15px 37px;
+		}
+	}
+
+.about-heading{
+	color:#ae67fa;
+	font-weight:600;
+	font-size: 44px;
+	text-align:center;
+	margin-top: 1.5rem;
+}
+/****************************************** ABOUT SECTION ENDS ***********************************************/
+
+/****************************************** SERVICES SECTION STARTS ***********************************************/
+#services{
+	background:#00112c;
+	padding-bottom:3%;
+	padding-top:3%;
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+}
+.service-head{
+	color:#ae67fa;
+	font-weight:600;
+	font-size: 44px;
+	border-bottom:solid #ae67fa 1px;
+}
+.service-para{
+	color:white;
+	font-size:19px;
+}
+
+.service-category{
+	padding-bottom:3%;
+	padding-top:3%;
+	margin-right:0px;
+	width:20%;
+}
+	.service-category img{
+		margin-bottom:10%;
+	}
+	.service-category h3{
+		color:white;
+		font-size:25px;
+		font-weight:500;
+	}
+		.service-category h3:hover{
+			color:#ae67fa;
+			cursor:pointer;
+		}
+	.service-category p{
+		color:white;
+	}
+/****************************************** SERVICES SECTION ENDS ***********************************************/
+
+/****************************************** POSSIBLE SECTION STARTS ***********************************************/
+#possible{
+	background:#00112c;
+	padding-bottom:3%;
+	padding-top:3%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.possible-img{
+	align-items: center;
+}
+	.possible-img img{
+		height:100%;
+		width:100%;
+	}
+	
+.possible-content{
+	color:#ae67fa;
+	padding-top: 17%;
+	height:50%;
+}
+	.possible-content h1{
+		font-size:55px ;
+	}
+	.possible-content p{
+		color:#81afdd;
+	}
+/****************************************** POSSIBLE SECTION ENDS ***********************************************/
+
+/****************************************** CONTACT SECTION STARTS ***********************************************/
+#contact{
+	background:#00112c;
+	padding-bottom:3%;
+	padding-top:3%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contact-heading{
+	width:100%;
+	margin-bottom: 5%;
+}
+	.contact-heading h1{
+		color:#ae67fa;
+		font-size: 60px;
+		line-height: 84px;
+	}
+	@media screen and (max-width: 767px){
+		.contact-heading h1 {
+    	font-size: 3.0rem;
+		}
+	}
+	
+.contact-touch{
+	color:white;
+}	
+	.contact-touch h1{
+		font-size:55px;
+	}
+	@media screen and (max-width: 767px){
+		.contact-touch h1 {
+    	font-size: 3.5rem;
+		}
+	}
+	.contact-touch p{
+		font-size: 20px;
+   		margin-top: 3%;
+	}
+	.contact-touch button, .contact-form button{
+		border:1px solid #ae67fa;
+		color:#ae67fa;
+		padding: 20px 100px 20px 100px;
+		border-radius:30px;
+	}
+		.contact-touch button:hover, .contact-form button:hover{
+			color:white;
+			background-color:#ae67fa;
+		}
+
+		@media screen and (max-width: 768px){
+			.contact-touch button {
+				margin-bottom: 2.3rem;	
+			}
+		}
+
+		@media screen and (max-width: 768px){
+			.contact-form button {
+				margin-top: 2.3rem;
+			}
+		}
+
+.form-group input, .form-group textarea{
+	background-color:#051b3d;
+	border:none;
+	padding:12px;
+	-webkit-box-shadow: 0px 0px 20px 3px rgba(58,104,122,0.77);
+	-moz-box-shadow: 0px 0px 20px 3px rgba(58,104,122,0.77);
+	box-shadow: 0px 0px 20px 3px rgba(58,104,122,0.77);
+}
+
+/****************************************** CONTACT SECTION ENDS ***********************************************/
+
+/****************************************** CAREER SECTION STARTS ***********************************************/
+#career{
+	background:#00112c;
+	padding-bottom:3%;
+	padding-top:3%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.career-heading h1{
+	color:#ae67fa;
+	font-size: 62px;
+	line-height: 84px;
+}
+
+.career-heading p{
+	color:white;
+	font-size:20px;
+}
+
+.sales{
+	border:1px solid hsla(0,0%,100%,.18);
+	border-radius:15px;
+	-webkit-box-shadow: 0px 0px 20px 1px rgba(58,104,122,0.77);
+	-moz-box-shadow: 0px 0px 20px 1px rgba(58,104,122,0.77);
+	box-shadow: 0px 0px 20px 1px rgba(58,104,122,0.77);
+	padding: 30px;
+}
+	.sales h4,p{
+		color:white;
+	}
+	.sales a{
+		color:#ae67fa;
+		text-decoration:none;
+		padding-top:10px;
+	}
+		.sales a:hover{
+			text-decoration:underline;
+			color:#ae67fa;
+			
+		}
+/****************************************** CAREER SECTION ENDS ***********************************************/
+
+/****************************************** FOOTER SECTION STARTS ***********************************************/
+#footer{
+	background:#00112c;
+	padding-bottom:1%;
+	padding-top:3%;
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+	border-top: 1px solid #00115c;
+}
+
+.footer-logo {
+	text-align:left;
+}
+@media screen and (max-width: 767px) {
+	.footer-logo {
+		text-align:center;
+	}
+}
+	.company-logo2{
+		width:40px;
+		border-radius:5px;
+	}
+	.company-text{
+		font-family: 'Cinzel Decorative', cursive;
+		color:white;
+	}
+	.company-add, .links-website{
+		color:white;
+		font-size:14px;	
+		text-decoration:none;
+	}
+
+.footer-social h4, .footer-links h4, .footer-getin h4{
+	color:white;
+	font-size:20px;
+}	
+	.logo-section{
+		display:flex;
+		margin: 20px 41px 20px 22px;
+		justify-content: space-around;
+	}
+	.logo-section a{
+		text-decoration:none;
+		padding-left:10%;
+	}
+
+.footer-logo-img{
+	width:25px;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+.footer-links p a{
+	color:white;
+	text-decoration:none;
+}	
+	.footer-links p a:hover{
+		color:#0a58ca; 
+	}
+
+ .footer-copyright{
+	color:white;
+	font-size:12px;
+	line-height:100px;
+}
+/****************************************** FOOTER SECTION ENDS ***********************************************/
